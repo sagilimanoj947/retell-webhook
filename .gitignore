@@ -1,0 +1,8 @@
+git status
+git check-ignore -v server.js.save
+git ls-files --others --ignored --exclude-standard
+cat .gitignore
+*.save
+nano .gitignore
+*.save
+
